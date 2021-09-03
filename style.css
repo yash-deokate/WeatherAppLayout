@@ -1,0 +1,84 @@
+body{
+    background-image: url("background.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: coral; */
+}
+.flex-container>div{
+    height: 100vh;
+    width: 50px;
+    
+    padding: 20px;
+    
+    text-align: center;
+}
+
+.menu{
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);  
+    backdrop-filter: blur(100px);
+
+}
+.weather{
+    /* background-color: cyan; */
+    display: flex;
+    flex-direction: column;
+}
+.menu>div{
+    height: 100vh;
+    width: 1;
+    /* background-color: darkred; */
+    padding: 1px;
+    margin: 2px;
+    text-align: left;
+    color: white;
+}
+.header{
+    height: 1vh;
+    width: 1;
+    /* background-color: darkred; */
+    padding-left: 100px;
+    font-size:x-large;
+    font-weight:bold;
+    color: white;
+    margin: 2px;
+    text-align: left;
+}
+.temp{
+    height: 1vh;
+    width: 420px;
+    /* background-color: darkred; */
+    padding-left: 100px;
+    margin: 2px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.degree{
+    font-size: 100px;
+}
+.city{
+    width: 200px;
+    padding-top: 20px;
+    text-align: center;
+} 
+.wtype{
+    padding-top: 39px;
+   
+}
